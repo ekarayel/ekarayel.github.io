@@ -1,2 +1,112 @@
 <!DOCTYPE html>
-<h1>Hello World</h1>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<div class="sidenav">
+        <ul>
+            <li><a href="#about">About</a>
+            <li><a href="#pubs">Peer-Reviewed Publications</a>
+            <li><a href="#afp">Archive of Formal Proofs</a>
+            <li><a href="#projects">Open Source Projects</a>
+            <li><a href="#blogs">Other Appearances</a>
+            <li><a href="#thesis">Diploma Thesis</a>
+            <li><a href="#patents">Patents</a>
+            <li><a href="#cv">CV</a>
+            <li><a href="#contact">Contact Info</a>
+        </ul>
+    </div>-->
+    <div class="main">
+        <h1>Emin Karayel</h1>
+        <h2 id="about">About Me</h2>
+        <table>
+            <colgroup><col style="width:25%"><col style="width:75%">  
+            <td><img src="emin.jpeg" style="height: 8em"></td>
+            <td>
+                I have a M.S. in mathematics from the KIT and more than 20 years of experience as a professional software engineer. In 2021, I decided to leave the industry and pursue a research career. I am currently working on a PhD at the Technical University of Munich in the field of formal verification.
+            </td>
+        </table>
+        <h2 id="pubs">Peer-Reviewed Publications</h2>
+        <table>
+            <tr><td>E. Karayel, E. Gonz&#224;lez: <a href="https://doi.org/10.1007/s00446-021-00414-6">Strong eventual consistency of the collaborative editing framework WOOT.</a> Distributed Computing. (2022).</td></tr>
+        </table>
+        <h2 id="afp">Archive of Formal Proofs</h2>
+        <table>
+            <colgroup><col style="width:25%"><col style="width:75%">  
+                <thead>
+                    <tr><td>Date</td><td>Authors, Title</td></tr>
+                </thead>
+            </colgroup>
+            <tr><td>2022-01-25</td><td>E. Karayel: <a href="https://www.isa-afp.org/entries/Median_Method.html">Median Method</a></td></tr>
+            <tr><td>2020-03-25</td><td>E. Karayel, E. Gonz&#224;lez: <a href="https://www.isa-afp.org/entries/WOOT_Strong_Eventual_Consistency.html">Strong Eventual Consistency of the Collaborative Editing Framework WOOT</a></td></tr>
+        </table>
+        <h2 id=projects">Open Source Projects</h2>
+        <table>
+            <colgroup><col style="width:25%"><col style="width:75%"></colgroup>
+            <thead>
+                <tr><td>Name</td><td>Description</td></tr>
+            </thead>
+            <tr>
+                <td><a href="http://github.com/ekarayel/frequency_moments">frequency_moments</a></td>
+                <td>Formal verification of randomized streaming algorithms for frequency moments and heavy hitters. This is my currently on-going project.</td>
+            </tr>
+            <tr>
+                <td><a href="http://github.com/ekarayel/sync-mht">sync-mht</a></td>
+                <td>A communication-efficient command-line file synchronization tool written in Haskell to synchronize large file hierarchies between local and remote sites.</td>
+            </tr>
+        </table>
+        <h2 id="blogs">Other Appearances</h2>
+        <table>
+            <colgroup><col style="width:25%"><col style="width:75%">  
+                <thead>
+                    <tr><td>Date</td><td>Title</td></tr>
+                </thead>
+            <tr><td>July 2015</td><td>Emin Karayel: Blog article, Parsing Haskell command lines using Generics (in German) <a href="https://funktionale-programmierung.de/2015/07/16/haskell-kommandozeilenparser-1.html">(Part 1)</a> <a href="https://funktionale-programmierung.de/2015/10/05/haskell-kommandozeilenparser-2.html">(Part 2)</a></td></tr>
+            <tr><td>April 2015</td><td>Problem setter at <a href="https://www.hackerrank.com/contests/lambda-calculi-10/challenges">Hackerrank contest: Lambda Calculi 10</a></td></tr>
+            <tr><td>September 2014</td><td>Stefan Wehr, Emin Karayel: CUFP Tutorial <a href="http://cufp.org/2014/t2-stefan-wehr-haskell-in-the-real-world.html">Haskell in the Real World</a></td></tr>
+        </table>
+        <h2 id="thesis">Diploma Thesis</h2>
+        <table>
+            <colgroup><col style="width:25%"><col style="width:75%">  
+            <thead>
+                <tr><td>Date</td><td>Title</td></tr>
+            </thead>
+            <tr><td>August 2009</td><td><a href="https://doi.org/10.6084/m9.figshare.1162912.v1">Generalized Eigenfunction Expansions</a></td></tr>
+        </table>
+        <h2 id="patents">Patents</h2>
+        <table>
+            <colgroup><col style="width:25%"><col style="width:75%">  
+            <thead>
+                <tr><td>Date</td><td>Inventors, Title</td></tr>
+            </thead>
+            <tr><td>August 2010</td><td>Emin Karayel, Carsten Heinz, Matthias Krings: <a href="https://patents.google.com/patent/US9087119B2/en">Method for searching in a plurality of data sets and search engine</a></td></tr>
+            <tr><td>May 2010</td><td>Emin Karayel, Carsten Kraus: <a href="https://patents.google.com/patent/US8823686B2/en">Operating device for a user interface</a></td></tr>
+            <tr><td>June 2006</td><td>Emin Karayel: <a href="https://patents.google.com/patent/EP2035965B1/en">Method for automatically valuating the similarity of two character strings which are stored in a computer</a></td></tr>
+        </table>
+        <h2 id="cv">CV</h2>
+        <table>
+            <colgroup><col style="width:25%"><col style="width:75%">  
+            <thead>
+                <tr><td>Time</td><td>Position</td></tr>
+            </thead>
+            <tr><td>since 2021</td><td>Technical University of Munich, External PhD Student</td>
+            <tr><td>2016-2021</td><td>Google, Senior Software Engineer</td></tr>
+            <tr><td>2013-2016</td><td>Medilyse GmbH, Haskell Software Engineer</td></tr>
+            <tr><td>2002-2013</td><td>Omikron Data Quality GmbH, Head of Research Team</td>
+            <tr><td>2001-2002</td><td>Karlsruhe Institute of Technology, Tutor Linear Algebra</td>
+            <tr><td>2000-2009</td><td>Karlsruhe Institute of Technology, M.S. in Mathematics</td>
+            <tr><td>1997-2000</td><td>Omikron Data Quality GmbH, Software Engineer</td>
+        </table>
+        <h2 id="contact">Contact Info</h2>
+            <img src="./noun_Key_3645659.svg" style="width:1em;margin-right:.5em;vertical-align: -30%;"><a href="http://keyserver2.pgp.com/vkd/DownloadKey.event?keyid=0x8B9EA230382003A5">PGP Public Key</a><br>
+            <img src="./noun_Email_3953821.svg" style="width:1em;margin-right:.5em;vertical-align: -30%;"><a href="mailto: me@eminkarayel.de">me@eminkarayel.de</a><br>
+            <img src="./linkedin.png" style="width:1em;margin-right:.5em;vertical-align: -10%;"><a href="https://linkedin.com/in/emin-karayel-52477428">LinkedIn profile</a><br>
+            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;vertical-align: -10%;" alt="ORCID iD icon"><a href="https://orcid.org/0000-0003-3290-5034">https://orcid.org/0000-0003-3290-5034</a>
+        <br/>
+        <h4>Notes</h4>
+        <small>
+            <span property="dct:title">This website</span> by <span property="cc:attributionName">Emin Karayel</span> is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a><br/>
+            Attributions: Key icon by Blaze150 and Email icon by Nawicon from the Noun Project.
+        </small>
+    </div>
+</body>

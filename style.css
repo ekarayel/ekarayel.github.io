@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+    font-family: sans-serif;
+    font-size: normal;
+    margin: 0;
+/*    background-image: url('bg.jpg');
+      color: #fdfafa;
+ */
+    padding: 0;
+}
+
+/* Content width: 780px */
+/* Side nav width: 200px */
+
+.sidenav {
+    left: calc(50vw - 600px);
+    width: 200px;
+    position: fixed;
+    padding: 10px;
+    margin: 0;
+    font-size: normal;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.sidenav ul li a {
+    display: block;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .sidenav {
+        display: none;
+    }
+}
+
+.sidenav a:visited {
+    text-decoration: none;
+}
+
+.sidenav a:focus {
+    text-decoration: none;
+}
+
+
+.sidenav li a:hover {
+    background-color: rgb(28, 59, 26);
+    color: white;
+}  
+
+.main {
+    top: 0px;
+    left: max(0px, 50vw - 350px);
+    width: min(700px, 100vw);
+    position: absolute;
+}
+
+a:link {
+    color: #101010;
+    text-decoration: underline;
+    text-decoration-color: rgb(2, 10, 77);
+}
+
+/* visited link */
+a:visited {
+    color: #101010;
+    text-decoration: underline;
+    text-decoration-color: rgb(2, 10, 77);
+}
+
+
+td {
+    vertical-align: top;
+}
+
+thead tr td {
+    font-weight:bold;
+}
+
+table {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-spacing: 0;
+}
